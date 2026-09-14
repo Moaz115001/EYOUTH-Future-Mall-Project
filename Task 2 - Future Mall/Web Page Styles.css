@@ -1,0 +1,92 @@
+body {
+    background-color: #0a1f33;
+    background-image: radial-gradient(circle at 50% 0%, #123a54 0%, #0a1f33 55%);
+    color: #eaf4ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 40px 60px;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+    padding-bottom: 40px;
+}
+
+.logo-container {
+    margin: 0 auto 40px;
+    background-color: #eaf6f8;
+    display: inline-block;
+    padding: 34px 50px;
+    border-radius: 22px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+}
+
+.mall-logo {
+    max-width: 340px;
+    height: auto;
+    display: inline-block;
+}
+
+h1 {
+    color: #1cc6d9;
+    font-size: 68px;
+    letter-spacing: 3px;
+    margin: 0 0 22px;
+}
+
+.hero p {
+    font-size: 21px;
+    line-height: 1.7;
+    color: #8ee5ef;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+/* ---------- Stores ---------- */
+.stores {
+    margin-top: 90px;
+    padding-bottom: 70px;
+}
+
+h2 {
+    color: #1cc6d9;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.stores ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.stores li {
+    background-color: #0f2c47;
+    border: 1px solid #17415f;
+    border-left: 4px solid #8ee5ef;
+    border-radius: 10px;
+    padding: 26px 32px;
+    font-size: 22px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.stores li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 26px rgba(142, 229, 239, 0.25);
+    border-color: #8ee5ef;
+}
+
